@@ -35,6 +35,8 @@ function swiperCard() {
       init = true;
       swiper = new Swiper(".swiper-container", {
         direction: "horizontal",
+        slidesPerView:'auto',
+        spaceBetween: 16,
         loop: true,
         pagination: {
           el: ".swiper-pagination",
